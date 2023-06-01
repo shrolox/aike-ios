@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE8BB65E2A2899AB00AA940F /* AikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8BB65D2A2899AB00AA940F /* AikeApp.swift */; };
+		FE8BB6602A2899AB00AA940F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8BB65F2A2899AB00AA940F /* ContentView.swift */; };
+		FE8BB6622A2899AC00AA940F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8BB6612A2899AC00AA940F /* Assets.xcassets */; };
+		FE8BB6652A2899AC00AA940F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8BB6642A2899AC00AA940F /* Preview Assets.xcassets */; };
+		FE8BB66F2A2899AC00AA940F /* AikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8BB66E2A2899AC00AA940F /* AikeTests.swift */; };
+		FE8BB6792A2899AC00AA940F /* AikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8BB6782A2899AC00AA940F /* AikeUITests.swift */; };
+		FE8BB67B2A2899AC00AA940F /* AikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8BB67A2A2899AC00AA940F /* AikeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE8BB66B2A2899AC00AA940F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE8BB6522A2899AB00AA940F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8BB6592A2899AB00AA940F;
+			remoteInfo = Aike;
+		};
+		FE8BB6752A2899AC00AA940F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE8BB6522A2899AB00AA940F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8BB6592A2899AB00AA940F;
+			remoteInfo = Aike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE8BB65A2A2899AB00AA940F /* Aike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8BB65D2A2899AB00AA940F /* AikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AikeApp.swift; sourceTree = "<group>"; };
+		FE8BB65F2A2899AB00AA940F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FE8BB6612A2899AC00AA940F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE8BB6642A2899AC00AA940F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FE8BB66A2A2899AC00AA940F /* AikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8BB66E2A2899AC00AA940F /* AikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AikeTests.swift; sourceTree = "<group>"; };
+		FE8BB6742A2899AC00AA940F /* AikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8BB6782A2899AC00AA940F /* AikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AikeUITests.swift; sourceTree = "<group>"; };
+		FE8BB67A2A2899AC00AA940F /* AikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE8BB6572A2899AB00AA940F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8BB6672A2899AC00AA940F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8BB6712A2899AC00AA940F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE8BB6512A2899AB00AA940F = {
+			isa = PBXGroup;
+			children = (
+				FE8BB65C2A2899AB00AA940F /* Aike */,
+				FE8BB66D2A2899AC00AA940F /* AikeTests */,
+				FE8BB6772A2899AC00AA940F /* AikeUITests */,
+				FE8BB65B2A2899AB00AA940F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE8BB65B2A2899AB00AA940F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE8BB65A2A2899AB00AA940F /* Aike.app */,
+				FE8BB66A2A2899AC00AA940F /* AikeTests.xctest */,
+				FE8BB6742A2899AC00AA940F /* AikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE8BB65C2A2899AB00AA940F /* Aike */ = {
+			isa = PBXGroup;
+			children = (
+				FE8BB65D2A2899AB00AA940F /* AikeApp.swift */,
+				FE8BB65F2A2899AB00AA940F /* ContentView.swift */,
+				FE8BB6612A2899AC00AA940F /* Assets.xcassets */,
+				FE8BB6632A2899AC00AA940F /* Preview Content */,
+			);
+			path = Aike;
+			sourceTree = "<group>";
+		};
+		FE8BB6632A2899AC00AA940F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FE8BB6642A2899AC00AA940F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FE8BB66D2A2899AC00AA940F /* AikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8BB66E2A2899AC00AA940F /* AikeTests.swift */,
+			);
+			path = AikeTests;
+			sourceTree = "<group>";
+		};
+		FE8BB6772A2899AC00AA940F /* AikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8BB6782A2899AC00AA940F /* AikeUITests.swift */,
+				FE8BB67A2A2899AC00AA940F /* AikeUITestsLaunchTests.swift */,
+			);
+			path = AikeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE8BB6592A2899AB00AA940F /* Aike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8BB67E2A2899AC00AA940F /* Build configuration list for PBXNativeTarget "Aike" */;
+			buildPhases = (
+				FE8BB6562A2899AB00AA940F /* Sources */,
+				FE8BB6572A2899AB00AA940F /* Frameworks */,
+				FE8BB6582A2899AB00AA940F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aike;
+			productName = Aike;
+			productReference = FE8BB65A2A2899AB00AA940F /* Aike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE8BB6692A2899AC00AA940F /* AikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8BB6812A2899AC00AA940F /* Build configuration list for PBXNativeTarget "AikeTests" */;
+			buildPhases = (
+				FE8BB6662A2899AC00AA940F /* Sources */,
+				FE8BB6672A2899AC00AA940F /* Frameworks */,
+				FE8BB6682A2899AC00AA940F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE8BB66C2A2899AC00AA940F /* PBXTargetDependency */,
+			);
+			name = AikeTests;
+			productName = AikeTests;
+			productReference = FE8BB66A2A2899AC00AA940F /* AikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE8BB6732A2899AC00AA940F /* AikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8BB6842A2899AC00AA940F /* Build configuration list for PBXNativeTarget "AikeUITests" */;
+			buildPhases = (
+				FE8BB6702A2899AC00AA940F /* Sources */,
+				FE8BB6712A2899AC00AA940F /* Frameworks */,
+				FE8BB6722A2899AC00AA940F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE8BB6762A2899AC00AA940F /* PBXTargetDependency */,
+			);
+			name = AikeUITests;
+			productName = AikeUITests;
+			productReference = FE8BB6742A2899AC00AA940F /* AikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE8BB6522A2899AB00AA940F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FE8BB6592A2899AB00AA940F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FE8BB6692A2899AC00AA940F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FE8BB6592A2899AB00AA940F;
+					};
+					FE8BB6732A2899AC00AA940F = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FE8BB6592A2899AB00AA940F;
+					};
+				};
+			};
+			buildConfigurationList = FE8BB6552A2899AB00AA940F /* Build configuration list for PBXProject "Aike" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE8BB6512A2899AB00AA940F;
+			productRefGroup = FE8BB65B2A2899AB00AA940F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE8BB6592A2899AB00AA940F /* Aike */,
+				FE8BB6692A2899AC00AA940F /* AikeTests */,
+				FE8BB6732A2899AC00AA940F /* AikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE8BB6582A2899AB00AA940F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8BB6652A2899AC00AA940F /* Preview Assets.xcassets in Resources */,
+				FE8BB6622A2899AC00AA940F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8BB6682A2899AC00AA940F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8BB6722A2899AC00AA940F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE8BB6562A2899AB00AA940F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8BB6602A2899AB00AA940F /* ContentView.swift in Sources */,
+				FE8BB65E2A2899AB00AA940F /* AikeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8BB6662A2899AC00AA940F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8BB66F2A2899AC00AA940F /* AikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8BB6702A2899AC00AA940F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8BB67B2A2899AC00AA940F /* AikeUITestsLaunchTests.swift in Sources */,
+				FE8BB6792A2899AC00AA940F /* AikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE8BB66C2A2899AC00AA940F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8BB6592A2899AB00AA940F /* Aike */;
+			targetProxy = FE8BB66B2A2899AC00AA940F /* PBXContainerItemProxy */;
+		};
+		FE8BB6762A2899AC00AA940F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8BB6592A2899AB00AA940F /* Aike */;
+			targetProxy = FE8BB6752A2899AC00AA940F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE8BB67C2A2899AC00AA940F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE8BB67D2A2899AC00AA940F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE8BB67F2A2899AC00AA940F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aike/Preview Content\"";
+				DEVELOPMENT_TEAM = DPPEF7NRF2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrolox.Aike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE8BB6802A2899AC00AA940F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Aike/Preview Content\"";
+				DEVELOPMENT_TEAM = DPPEF7NRF2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrolox.Aike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE8BB6822A2899AC00AA940F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPPEF7NRF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrolox.AikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aike.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aike";
+			};
+			name = Debug;
+		};
+		FE8BB6832A2899AC00AA940F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPPEF7NRF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrolox.AikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aike.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aike";
+			};
+			name = Release;
+		};
+		FE8BB6852A2899AC00AA940F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPPEF7NRF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrolox.AikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aike;
+			};
+			name = Debug;
+		};
+		FE8BB6862A2899AC00AA940F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPPEF7NRF2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shrolox.AikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE8BB6552A2899AB00AA940F /* Build configuration list for PBXProject "Aike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8BB67C2A2899AC00AA940F /* Debug */,
+				FE8BB67D2A2899AC00AA940F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8BB67E2A2899AC00AA940F /* Build configuration list for PBXNativeTarget "Aike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8BB67F2A2899AC00AA940F /* Debug */,
+				FE8BB6802A2899AC00AA940F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8BB6812A2899AC00AA940F /* Build configuration list for PBXNativeTarget "AikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8BB6822A2899AC00AA940F /* Debug */,
+				FE8BB6832A2899AC00AA940F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8BB6842A2899AC00AA940F /* Build configuration list for PBXNativeTarget "AikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8BB6852A2899AC00AA940F /* Debug */,
+				FE8BB6862A2899AC00AA940F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE8BB6522A2899AB00AA940F /* Project object */;
+}
